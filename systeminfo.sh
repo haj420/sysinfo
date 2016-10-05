@@ -115,4 +115,4 @@ echo "output file = $filename"
 
  write_page > $filename
 
-cat $filename | mail -s $TITLE  wm@charwebs.com
+cat $filename | mail -s $TITLE  # email addy
